@@ -1,0 +1,32 @@
+/ccs_to_description_dictionary
+/ClinicalGAN.ipynb
+/data
+/DXCCSR_v2021-2
+/Explore data diagnosis.ipynb
+/icd10DP_to_cssr_dictionary
+/Learning
+/Multi_Level_CCS_2015
+/PRCCSR_v2021-1
+/Seq2Seq.ipynb
+/Single_Level_CCS_2015
+/Transformer.ipynb
+/TransformerTestDataParallel.ipynb
+/__pycache__
+/.vscode
+/trainingDetails
+*.pdf
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+
+# End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks

@@ -1,0 +1,1 @@
+## Location where all the Sequential disease prediction related data should be saved.

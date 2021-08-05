@@ -1,0 +1,17 @@
+#ray[tune]
+#ray
+#hyperopt==0.2.5
+#ml-metrics==0.1.4
+pandas==1.2.0
+numpy==1.19.5
+scikit-learn==0.24.0
+matplotlib==3.3.3
+scipy==1.6.0
+seaborn==0.11.1
+pickleshare==0.7.5
+openpyxl==3.0.7
+xlrd==2.0.1
+torch==1.8.1+cu111
+torchaudio==0.8.1
+torchtext==0.9.1
+torchvision==0.9.1+cu111
