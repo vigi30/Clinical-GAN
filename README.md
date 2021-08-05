@@ -20,7 +20,7 @@ We also not provide the CCS and CCSR mapping data. Please visit [HCUP](https://w
 
 ## Loading the data
 
-Replace the path in  `QUERIES.SQL` to the current working directory.For instance, More specifically, replace the following `current_working_directory` to your path where you have stored this project.
+Replace the path in  `QUERIES.SQL` to the current working directory. More specifically, replace the following `current_working_directory` to your path where you have stored this project.
 Please do not change the filenames.
 
 ```
