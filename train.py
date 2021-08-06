@@ -64,7 +64,7 @@ parser.add_argument('--learning_rate',default=4e-4, type=float,help="learning ra
 parser.add_argument('--epochs',default=100, type=int,help="Total number of epochs")
 
 parser.add_argument('--gen_layers',default=3, type=int,help="Total number of generator's Encoder and Decoder layers")
-parser.add_argument('--disc_layers',default=3, type=int,help="Total number of discriminator's Encoder layers")
+parser.add_argument('--disc_layers',default=1, type=int,help="Total number of discriminator's Encoder layers")
 
 parser.add_argument('--dropout',default=0.1, type=float,help="Dropout value to be applied forreducing overfitting ")
 parser.add_argument('--clip',default=0.1, type=float,help="Discriminator's cliping value for gradient clipping")
@@ -74,7 +74,7 @@ parser.add_argument('--gen_clip',default=1.0, type=float,help="Generator's clipi
 parser.add_argument('--alpha',default=0.3, type=float,help="alpha value for geenrators loss")
 
 parser.add_argument('--gen_heads',default=8, type=int,help="Total number of multi-head in Generator")
-parser.add_argument('--disc_heads',default=8, type=int,help="Total number of multi-head in Discriminator")
+parser.add_argument('--disc_heads',default=4, type=int,help="Total number of multi-head in Discriminator")
 parser.add_argument('--batch_size',default=4, type=int,help="batch size to be used for training the model")
 
 parser.add_argument('--isdataparallel',default=False, type=int,help="if you have more than two gpu's, use dataparallization")
