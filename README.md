@@ -65,13 +65,13 @@ Following are the optional arguments involving hyperparameters.
 - `--learning_rate` : learning rate of the model. Default=4e-4.
 - `--epochs`: Total number of epochs. Default=100
 - `--gen_layers`: Total number of generator's Encoder and Decoder layers. Default=3
-- `--disc_layers`: Total number of discriminator's Encoder layers. Default=3
+- `--disc_layers`: Total number of discriminator's Encoder layers. Default=1
 - `--dropout`: Dropout value to be applied forreducing overfitting. Default=0.1
 - `--clip`: Discriminator's cliping value for gradient clipping. Default=0.1
 - `--gen_clip`:Generator's cliping value for gradient clipping. Default=1.0
 - `--alpha`:alpha value for Generator's loss. Default=0.3
 - `--gen_heads`: Total number of multi-head in Generator. Default=8
-- `--disc_heads`:Total number of multi-head in Discriminator. Default=8.
+- `--disc_heads`:Total number of multi-head in Discriminator. Default=4.
 - `--batch_size` : batch size to be used for training the model. Default=8
 - `--isdataparallel`: if you have more than one gpu, you could use dataparallization. Default=False
 - `--hid_dim`: Embedding dimension of both Generator and discriminator. Default=256
