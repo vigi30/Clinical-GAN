@@ -10,7 +10,7 @@ pip install -r Requirement.txt
 Please install postgresql 13.1 [from postgresql](https://www.postgresql.org/download/). 
 
 We do not provide the MIMIC-IV data. In order to access the data, one must be an credentialied user on Physionet. Please visit  [physionet](https://mimic.mit.edu/docs/gettingstarted/) for more instructions.
-We also not provide the CCS and CCSR mapping data. Please visit [HCUP](https://www.hcup-us.ahrq.gov/) to download [CCS (Single level CCS)](https://www.hcup-us.ahrq.gov/toolssoftware/ccs/ccs.jsp) , [CCSR for Diagnosis](https://www.hcup-us.ahrq.gov/toolssoftware/ccsr/dxccsr.jsp)  and [CCSR for procedure](https://www.hcup-us.ahrq.gov/toolssoftware/ccsr/prccsr.jsp) files. After that, Move the downloaded folders to the current working directory.
+We also do not provide the CCS and CCSR mapping data. Please visit [HCUP](https://www.hcup-us.ahrq.gov/) to download [CCS (Single level CCS)](https://www.hcup-us.ahrq.gov/toolssoftware/ccs/ccs.jsp) , [CCSR for Diagnosis](https://www.hcup-us.ahrq.gov/toolssoftware/ccsr/dxccsr.jsp)  and [CCSR for procedure](https://www.hcup-us.ahrq.gov/toolssoftware/ccsr/prccsr.jsp) files. After that, Move the downloaded folders to the current working directory.
 ```
 /Clinical-GAN/DXCCSR_v2021-2
 /Clinical-GAN/PRCCSR_v2021-1
