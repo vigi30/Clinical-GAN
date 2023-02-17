@@ -3,6 +3,8 @@
 
 Predicting the trajectory of a disease at an early stage can aid physicians in offering effective treatment, prompt care to patients, and also avoid misdiagnosis. However, forecasting patient trajectories is challenging due to long-range dependencies, irregular intervals between consecutive admissions, and non-stationarity data. To address these challenges, we propose a novel method called Clinical-GAN, a Transformer-based Generative Adversarial Networks (GAN) to forecast the patients’ medical codes for subsequent visits. First, we represent the patients’ medical codes as a time-ordered sequence of tokens akin to language models. Then, a Transformer mechanism is used as a Generator to learn from existing patients’ medical history and is trained adversarially against a Transformer-based Discriminator. We address the above mentioned challenges based on our data modeling and Transformer-based GAN architecture. Additionally, we enable the local interpretation of the model’s prediction using a multi-head attention mechanism. We evaluated our method using a publicly available dataset, Medical Information Mart for Intensive Care IV v1.0 (MIMIC-IV), with more than 500,000 visits completed by around 196,000 adult patients over an 11-year period from 2008–2019. Clinical-GAN significantly outperforms baseline methods and existing works, as demonstrated through various experiments.
 
+![alt text](PullFigure_1-1.png)
+
 ## Requirements
 
 The `Requirement.txt` file  lists all Python libraries that this project needs, install using the below command.
