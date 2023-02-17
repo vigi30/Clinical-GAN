@@ -1,4 +1,4 @@
-# Clinical-GAN: Trajectory forecasting model for clinical events using Transformer and Generative Adversarial Network
+# Clinical-GAN: Trajectory forecasting model for clinical events using Transformer and Generative Adversarial Network (*[paper](https://doi.org/10.1016/j.artmed.2023.102507)*)
 
 
 Predicting the trajectory of a disease at an early stage can aid physicians in offering effective treatment, prompt care to patients, and also avoid misdiagnosis. However, forecasting patient trajectories is challenging due to long-range dependencies, irregular intervals between consecutive admissions, and non-stationarity data. To address these challenges, we propose a novel method called Clinical-GAN, a Transformer-based Generative Adversarial Networks (GAN) to forecast the patients’ medical codes for subsequent visits. First, we represent the patients’ medical codes as a time-ordered sequence of tokens akin to language models. Then, a Transformer mechanism is used as a Generator to learn from existing patients’ medical history and is trained adversarially against a Transformer-based Discriminator. We address the above mentioned challenges based on our data modeling and Transformer-based GAN architecture. Additionally, we enable the local interpretation of the model’s prediction using a multi-head attention mechanism. We evaluated our method using a publicly available dataset, Medical Information Mart for Intensive Care IV v1.0 (MIMIC-IV), with more than 500,000 visits completed by around 196,000 adult patients over an 11-year period from 2008–2019. Clinical-GAN significantly outperforms baseline methods and existing works, as demonstrated through various experiments.
@@ -117,10 +117,10 @@ Following are the required arguments
 
 ### Citation
 
-Also check out the paper *[paper](https://doi.org/10.1016/j.artmed.2023.102507)*, and please cite it if you use in your work.
+Also check out the *[paper](https://doi.org/10.1016/j.artmed.2023.102507)*, and please cite it if you use in your work.
 
 ```
-@article{SHANKAR2023102507,
+@article{Shankar_ClinicalGAN,
 title = {Clinical-GAN: Trajectory Forecasting of Clinical Events using Transformer and Generative Adversarial Networks},
 journal = {Artificial Intelligence in Medicine},
 volume = {138},
