@@ -112,7 +112,7 @@ def evaluateGAN(model,Loader,types,max_len,device):
         trgs = convList(trgs)
         #print(f"Recall values  : {recallTop(pred_trgs, trgs)}")
         print(f"Recall values  : {recallTop(trgs, pred_trgs)}")
-        k=[20,40,60,200]
+        k=[100,150,250]
         #print(f"test mark :  { [mark(pred_trgs,trgs, k=i) for i in k]} ")
         print(f"test mapk : { [mapk(trgs,pred_trgs, k=i) for i in k]} ")
         #print(f"test overall precision : {recommender_precision(pred_trgs,trgs)}")
